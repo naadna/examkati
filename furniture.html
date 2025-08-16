@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnish Store</title>
+<style type="text/css">
+
+body 
+{
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+}
+
+.header
+{
+    background-color: #5d4037;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.logo
+{
+    font-size: 28px;
+    font-weight: bold;
+    color:white;
+}
+
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: rgb(120, 51, 51);}
+a:active {color: black;}
+
+.navbar
+{
+    font-size: 18px;
+    text-align: right;
+    word-spacing: 10px;
+}
+
+.nav-link
+{
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.furniture-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+.furniture-item img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0px 4px 8px (rgba(0, 0, 0, 0.1));
+}
+
+.furniture-item h3
+{
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="main-contaier">
+        <header class="header">
+            <div class="logo">Furnish Store</div>
+            <nav class="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="furniture.html" class="nav-link">Furniture</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <main class="furniture-grid">
+            <div class="furniture-item">
+                <img src="2camelbacksofa.jpeg" alt="Camel Back Sofa">
+                <h3>Camel Back Sofa</h3>
+            </div>
+
+            <div class="furniture-item">
+                <img src="4tuxedosofa.jpeg" alt="Tuxedo Sofa">
+                <h3>Tuxedo Sofa</h3>
+            </div>
+
+            <div class="furniture-item">
+                <img src="lawson sofa.jpeg" alt="Lawson Sofa">
+                <h3>Lawson Sofa</h3>
+            </div>
+
+            <div class="furniture-item">
+                <img src="2clubchair.jpeg" alt="Club Chair">
+                <h3>Club Chair</h3>
+            </div>
+
+            <div class="furniture-item">
+                <img src="2eggchair.jpeg" alt="Egg Chair">
+                <h3>Egg Chair</h3>
+            </div>
+
+            <div class="furniture-item">
+                <img src="barrel chair.jpeg" alt="Barrel Chair">
+                <h3>Barrel Chair</h3>
+            </div>
+        </main>
+    </div>
+</body>
